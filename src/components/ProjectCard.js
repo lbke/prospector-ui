@@ -2,7 +2,7 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import { withStyles } from "@material-ui/core/styles";
 
-import { getFromParam } from "./utils"
+import { getFromParam } from "../utils/utils"
 
 const styles = theme => ({
     button: {
