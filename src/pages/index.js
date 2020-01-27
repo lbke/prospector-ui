@@ -20,7 +20,7 @@ const styles = theme => ({
     }
 });
 
-const baseUrl = process.env.API_URL
+const baseUrl = process.env.GATSBY_PROSPECTOR_API_URL
 const scrapUrl = baseUrl + "/query";
 const getUrl = baseUrl + "";
 const withProjects = C => {
